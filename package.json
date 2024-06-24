@@ -9,14 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "isomorphic-fetch": "^3.0.0",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "sparql-http-client": "^3.0.0",
+    "whatwg-url": "^14.0.0"
   },
   "devDependencies": {
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "@types/node": "20.14.2",
+    "@types/react": "18.3.3",
+    "@types/sparql-http-client": "^3.0.2",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
